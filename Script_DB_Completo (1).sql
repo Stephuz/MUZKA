@@ -1,6 +1,8 @@
 CREATE DATABASE dbMuzka;
 USE dbMuzka;
 
+SET GLOBAL lc_time_names=pt_BR;
+
 CREATE TABLE Usuario(
 idUsuario int AUTO_INCREMENT,
 login varchar(30) NOT NULL UNIQUE,
